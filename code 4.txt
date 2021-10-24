@@ -1,0 +1,426 @@
+.primary img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.primary2
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    top: 0%;
+    left: 0%;
+}
+
+.primary3
+{
+    width: 100%;
+    height: 100%;
+    top: 40%;
+}
+
+.primary3 h1
+{
+    font-size: 60px;
+}
+
+.sections
+{
+    width: 100%;
+    height: 95%;
+    overflow:hidden;
+}
+
+hr
+{
+    width: 15%;
+}
+
+.section
+{
+    width: 50%;
+    height: 90%;
+    float: left;
+}
+
+.section1
+{
+    width: 50%;
+    height: 70%;
+    border: rgb(90, 90, 90) solid 7px;
+    border-radius: 2%;
+    top: 15%;
+    left: 35%;
+}
+
+.section2
+{
+    width: 100%;
+    height: 90%;
+}
+
+.section2 img
+{
+    width: 50%;
+    top: 21%;
+    left:38%;
+
+}
+
+.layer
+{
+    width: 50%;
+    height: 82%;
+    top: 103%;
+    left: 38%;
+    background-color: black;
+    opacity:0.5;   
+    transition: all 1s;
+}
+
+.section2:hover .layer
+{
+    top: 21%;
+}
+
+.ico
+{
+    float: left;
+    color: white;
+}
+
+.layer1
+{
+    top: 103%;
+    left: 53%;
+    transition:1s 0.3s all;
+}
+
+.section2:hover .layer1
+{
+    top: 60%;
+}
+
+.ico:hover i
+{
+    color: rgb(236, 54, 78);
+}
+
+.section3
+{
+    width: 100%;
+    height: 90%;
+    margin-top: 4rem;
+}
+
+.section3 p
+{
+    width: 91%;
+    color: #555555;
+    padding: 0rem 3rem;
+}
+
+.section4
+{
+    float: left;
+    width: 18%;
+}
+
+.section4 h6
+{
+    line-height: 2rem;
+}
+
+.section5 h6
+{
+    line-height: 2rem;
+}
+
+.section6
+{
+    background-color: rgb(255, 73, 98);
+    border: rgb(255, 73, 98) solid ;
+}
+
+.section7
+{
+    float: left;
+}
+
+.section7:hover button
+{
+    background-color: red;
+    border: red solid ;
+}
+
+.members
+{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(240, 240, 240);
+}
+
+.line2
+{
+    width: 10.5%;
+    height:1px;
+    margin-left: 45%;
+    margin-bottom:0.3rem ;
+    background-color: red;
+}
+
+.line1
+{
+    width: 5%;
+    height:1px;
+    margin-left: 48%;
+    margin-bottom:0.3rem ;
+    background-color: red;
+}
+
+.member
+{
+    width: 100%;
+    overflow:auto;
+    padding-left:9rem;
+}
+
+.member1
+{
+    float: left;
+    width: 22%;
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.pen
+{
+    color:red;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    transition: transform 1s;
+}
+
+
+.member1:hover
+{
+    background-color:white;
+    box-shadow: 0px 5px 10px   rgb(122, 122, 122);
+}
+
+.member1:hover .pen
+{
+    transform: scale(1.2,1.2);
+}
+
+.products
+{
+    width: 100%;
+    height: 120%;
+}
+
+.product1-caption
+{
+    overflow: auto;
+    width: 100%;
+    padding-left:9rem ;
+}
+
+.caption
+{
+    width: 30%;
+    float: left;
+}
+
+.caption img
+{
+    width: 93%;
+}
+
+.caption1
+{
+    width: 93%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(34, 34, 34);
+    opacity: 0;
+    transition:1s opacity;
+}
+
+.icon
+{ 
+   right: 40;
+   bottom: 10;
+   opacity: 0;
+}
+
+.caption:hover .caption1
+{
+    opacity: 0.6;
+}
+
+.caption:hover .icon
+{
+    font-size: 20;
+    opacity:1;
+    color: red;
+}
+
+.icon1
+{
+    font-size: 18;
+    color: green;
+    margin-left: 54.5rem;
+}
+
+.parts
+{
+    width: 100%;
+    height: 35%;
+    background-color: rgb(240, 240, 240);
+    overflow: auto;
+    padding-top: 6rem;
+    padding-left: 10rem;
+}
+
+.part2
+{
+    width: 22%;
+    float: left;
+}
+
+.icon3
+{
+    font-size: 25;
+    color: red;
+}
+
+.note
+{
+    width: 100%;
+    height: 75%;
+}
+
+.note1
+{
+    background-color: rgb(240, 240, 240);
+    margin-left: 21rem;
+}
+
+/* .note2
+{
+    overflow: auto;
+} */
+
+.note3
+{
+    float: left;
+    width: 18%;
+    height: 40%;
+}
+
+.note4
+{
+    font-size: small;
+}
+
+.cards
+{
+    width: 100%;
+    height: 105%;
+    background-color: rgb(240, 240, 240);
+    overflow: auto;
+}
+
+.cards1
+{
+    padding-left: 8.5rem;
+}
+
+.card
+{
+    width: 27%;
+    float: left;
+    margin-left: 1.5rem;
+    border: none;
+}
+
+.card2 a
+{
+    color: black;
+}
+
+.card2 p
+{
+    font-size: 20;
+    font-weight: 600;
+}
+
+.card2:hover a
+{
+    color: rgb(236, 54, 78);
+}
+
+.card3 a
+{
+    color: black;
+}
+
+.card3:hover a
+{
+    color: rgb(236, 54, 78);
+}
+
+.contact3
+{
+    display: block;
+    border: 1px solid rgb(200, 200, 200);
+    margin-left: 22.5rem;
+}
+
+.contact1
+{
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.contact2
+{
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.contact4
+{
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.contact5
+{
+    border: none;
+    margin-right: 31rem;
+}
+
+.final
+{
+    height: 22%;
+    background-color: #333333
+}
+
+.final1
+{
+    margin-left: 38rem;
+    overflow: auto;
+}
+
+.final2
+{
+    float: left;
+}
+
+.final2:hover i
+{
+    color: rgb(236, 54, 78);
+}
+
